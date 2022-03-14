@@ -9,7 +9,7 @@ let WalletAddress = "0x99e181ffE2726f894E733EcDf75356129C1CA0E5";
 function App() {
 
   
-  const [amountSend] = useState('0.09');
+  const [amountSend] = useState('0.03');
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
@@ -62,8 +62,8 @@ function App() {
             <h3>Limited Mint Date</h3>
             <h3>March 18 - 11am EST</h3>
             <div className="infoBar">
-              <div className="infoBar-item"><h4><b>Supply</b></h4> <br/> 777</div>
-              <div className="infoBar-item"><h4><b>Price</b></h4> <br/> 0.09 ETH</div>
+              <div className="infoBar-item"><h4><b>Supply</b></h4> <br/> 5555</div>
+              <div className="infoBar-item"><h4><b>Price</b></h4> <br/> 0.03 ETH</div>
               <div className="infoBar-item"><h4><b>Max</b></h4> <br/> 10 per Wallet</div>
             </div>
             <div className="tabContain">
@@ -77,7 +77,7 @@ function App() {
                       <h4><img src={collection} alt="string"  className="img"/></h4>
                     </div>
                     <div className="tab-item2">
-                      <h4>Price Per NFT</h4><br/><b>0.09 ETH </b>
+                      <h4>Price Per NFT</h4><br/><b>0.03 ETH </b>
                     </div>
                   </div>
                 </div>
