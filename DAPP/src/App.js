@@ -60,7 +60,7 @@ function App() {
         <div className="wallet__flex">
           <div className="walletG">
             <h3>Limited Mint Date</h3>
-            <h3>March 18 - 11am EST</h3>
+            <h3>March 23 - 11am EST</h3>
             <div className="infoBar">
               <div className="infoBar-item"><h4><b>Supply</b></h4> <br/> 777 </div>
               <div className="infoBar-item"><h4><b>Price</b></h4> <br/> 0.06 ETH</div>
